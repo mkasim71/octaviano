@@ -10,10 +10,19 @@ class Content extends React.Component {
     }
 }
 
+class Header extends React.Component {
+    render() {
+        return (
+            <h1>Header</h1>
+        )
+    }
+}
+
 export default function App() {
   return (
     <div className="App">
-        <Content/>
+        <Header/>
+        <h1>Testing</h1>
     </div>
   );
 }
